@@ -10,5 +10,5 @@ grep -E "r\{9\}" *
 # zad4
 grep -c bash$ /etc/passwd
 
-#5
+# zad5
 
