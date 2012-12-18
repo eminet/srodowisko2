@@ -8,7 +8,7 @@ grep ^[0-9] pl*
 grep -E "r\{9\}" *
 
 #4
-grep bash$ /etc/passwd
+grep -c bash$ /etc/passwd
 
 #5
-grep "\(^\|[^[:alnum:]]\)[IVXLCDM]\+\( \|$\)" plik.txt
+
