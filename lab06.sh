@@ -5,7 +5,7 @@ grep . plik.txt
 grep ^[0-9] pl*
 
 # zad3
-grep -E "r\{9\}" *
+grep -E '^.{8}r.*' *
 
 # zad4
 grep -c bash$ /etc/passwd
